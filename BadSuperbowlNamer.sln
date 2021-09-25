@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuperbowlNamer", "BadSuperbowlNamer\BadSuperbowlNamer.csproj", "{8C509D48-B039-4DD9-B284-BD1A9E5B0DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadSuperbowlNamer.Tests", "BadSuperbowlNamer.Tests\BadSuperbowlNamer.Tests.csproj", "{59FE9EF1-82DB-4280-BF48-3E00D3E3289E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C509D48-B039-4DD9-B284-BD1A9E5B0DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C509D48-B039-4DD9-B284-BD1A9E5B0DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C509D48-B039-4DD9-B284-BD1A9E5B0DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C509D48-B039-4DD9-B284-BD1A9E5B0DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FE9EF1-82DB-4280-BF48-3E00D3E3289E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FE9EF1-82DB-4280-BF48-3E00D3E3289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FE9EF1-82DB-4280-BF48-3E00D3E3289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FE9EF1-82DB-4280-BF48-3E00D3E3289E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7FBBF7A-9413-4907-AFF8-3AA06E178418}
+	EndGlobalSection
+EndGlobal
