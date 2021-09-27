@@ -10,12 +10,26 @@ namespace BadSuperbowlNamer
     {
         public string Translate(int numberToTranslate)
         {
-            if (numberToTranslate == 1)
-            {
-                return "I";
-            }
+            //switch expression
+            //return numberToTranslate switch
+            //{
+            //    1 => "I",
+            //    3 => "III",
+            //    4 => "IV",
+            //    _ => ""
+            //};
 
-            return "";
+            switch (numberToTranslate)
+            {
+                case 1:
+                    return "I";
+                case 3:
+                    return "III";
+                case 4:
+                    return "IV";
+                default:
+                    return "";
+            }
         }
     }
 }
